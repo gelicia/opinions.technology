@@ -1,6 +1,7 @@
 body {
   background-color: #F9CDAD;
-  font-family: 'Tauri', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
+  color: #5c2509;
 }
 
 div.footer {
@@ -19,6 +20,11 @@ div.footer p{
   margin-right: 10px;
   margin-top: 10px;
   text-align: right;
+}
+
+div.footer a{
+  color: #862a9a;
+  text-decoration: none;
 }
 
 div.header {
@@ -57,3 +63,12 @@ div.main h1{
   font-size: 80px;
   font-weight: bold;
 }
+
+.clickable {
+  text-decoration: underline;
+  cursor: default;
+}
+
+.clickable:hover{
+  font-weight: bold;
+};

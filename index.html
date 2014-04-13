@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!--<link rel="stylesheet" type="text/css" href="css/kube.min.css">-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Tauri' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/lib/miso.ds.deps.min.0.4.0.js"></script>
 	<script type='text/javascript' src='js/lib/jquery-1.11.0.min.js'></script> <!--todo, replace with promise library-->
 	<script type="text/javascript" src="js/main.js"></script>
@@ -15,8 +15,7 @@
 	<div class="main"> 
 		<div class="container">
 			<h1><span id="tech"></span> is <span id="adj"></span>.</h1>
-			<p><span onclick="addOpinion('1');">I agree!</span><br/>
-			<span onclick="addOpinion('0');">I disagree!</span></p>
+			<p><span class="clickable" onclick="addOpinion('1');">I agree!</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="clickable" onclick="addOpinion('0');">I disagree!</span></p>
 			<p>This has been agreed with <span id="agree"></span> times.<br/>
 			This has been disagreed with <span id="disagree"></span> times.</p>
 		</div>
