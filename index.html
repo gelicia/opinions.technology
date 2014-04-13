@@ -2,9 +2,15 @@
 <head>
 	<title>Opinions.technology</title>
 	<script type="text/javascript" src="js/lib/miso.ds.deps.min.0.4.0.js"></script>
+	<script type='text/javascript' src='js/lib/jquery-1.11.0.min.js'></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
 </head>
 <body onload="opinionate();">
 	<h1><span id="tech"></span> is <span id="adj"></span>.</h1>
+	<h5><span onclick="addOpinion('1');">I agree!</span><br/>
+	<span onclick="addOpinion('0');">I disagree!</span></h5>
+	<h5>This has been agreed with <span id="agree"></span> times.<br/>
+	This has been disagreed with <span id="disagree"></span> times.</h5>
 </body>
 </html>
