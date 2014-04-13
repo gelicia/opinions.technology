@@ -1,6 +1,5 @@
 body {
   background-color: #F9CDAD;
-  margin-bottom: 120px;
   font-family: 'Tauri', sans-serif;
 }
 
@@ -8,7 +7,8 @@ div.footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 100px;
+  height: 20%;
+  min-height: 80px;
   background-color: #FE4365;
   width: 100%;
   border-top-style: solid;
@@ -16,11 +16,18 @@ div.footer {
   border-top-color: #FC9D9A;
 }
 
+div.footer p{
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: right;
+}
+
 div.header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100px;
+  height: 20%;
+  min-height: 80px;
   background-color: #83AF9B;
   width: 100%;
   border-bottom-style: solid;
@@ -28,13 +35,28 @@ div.header {
   border-bottom-color: #C8C8A9;
 }
 
+div.header p{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 div.main {
-  height: 100%;
-  width: 100%;
+  margin-top: 145px;
+  margin-bottom: 145px;
 }
 
 div.container{
   display: table-cell;
-text-align: center;
-vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width:999999px;
+}
+
+div.main h1{
+  font-size: 30px;
+  font-weight: bold;
 }
