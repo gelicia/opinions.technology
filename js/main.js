@@ -18,7 +18,7 @@ function opinionate(){
 }
 
 function getRandomPair(){
-	var def = $.Deferred();
+	var def = Q.defer();
 	var techChoice;
 	var adjChoice;
 
@@ -49,7 +49,7 @@ function getRandomPair(){
 			}
 		});
 	});
-	return def.promise();
+	return def.promise;
 }
 
 function addOpinion(vote){
