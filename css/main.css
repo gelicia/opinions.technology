@@ -1,0 +1,40 @@
+body {
+  background-color: #F9CDAD;
+  margin-bottom: 120px;
+  font-family: 'Tauri', sans-serif;
+}
+
+div.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  background-color: #FE4365;
+  width: 100%;
+  border-top-style: solid;
+  border-top-width: 40px;
+  border-top-color: #FC9D9A;
+}
+
+div.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  background-color: #83AF9B;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 40px;
+  border-bottom-color: #C8C8A9;
+}
+
+div.main {
+  height: 100%;
+  width: 100%;
+}
+
+div.container{
+  display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
