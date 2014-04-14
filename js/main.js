@@ -52,6 +52,10 @@ function getRandomPair(){
 	return def.promise;
 }
 
+function noOpinion(){
+	location.reload();
+}
+
 function addOpinion(vote){
 	var opinionRef = new Firebase('https://opinionstechnology.firebaseio.com/' + techID + '/' + adjID);
 	var votesCnt = 0;

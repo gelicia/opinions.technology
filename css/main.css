@@ -72,3 +72,7 @@ div.main h1{
 .clickable:hover{
   font-weight: bold;
 };
+
+span.bold{
+  font-weight: bold;
+}
